@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/App.css';
-import * as ReactBootStrap from "react-bootstrap"
+import '../styles/Table.css';
+
 
 const Table = () => {
 
@@ -28,7 +28,8 @@ const employees = [
 
   return (
     <div className="App">
-    <table hover>
+      <h1>Employee Table</h1>
+    <table striped border hover>
       <thread>
         <tr>
           <th>id</th>
