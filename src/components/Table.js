@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Table.css';
 
-
 const Table = () => {
 
 const employees = [
@@ -47,3 +46,5 @@ const employees = [
 }
 
 export default Table;
+
+
