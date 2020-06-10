@@ -17,3 +17,5 @@ Link to GitHub: https://github.com/sylviadiane69/EmpDirectory
 
 Link to Heroku: https://shrouded-lake-11743.herokuapp.com/ 
 
+<img src="images/EDTerminal.png" width="400"> <img src="images/EmpDirectory.png" width="400">
+
