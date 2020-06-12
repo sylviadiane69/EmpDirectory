@@ -3,7 +3,7 @@ import '../styles/Table.css';
 
 const Table = () => {
 
-const employees = [
+  const employees = [
     { id: 1, name: 'Gloria Ramirez', title: 'CEO', salary: '500,000' },
     { id: 2, name: 'Gabriel Cervantes', title: 'Engineer', salary: '160,000' },
     { id: 3, name: 'Michelle Holub', title: 'Devloper', salary: '125,000' },
@@ -11,7 +11,7 @@ const employees = [
     { id: 5, name: 'Leslie Perez', title: 'Supervisor', salary: '175,000' },
     { id: 6, name: 'Matthew Scott', title: 'Engineer', salary: '165,000' },
     { id: 7, name: 'Judy Sanchez', title: 'Devloper', salary: '125,000' },
-    { id: 8, name: 'Christopher James', title: 'Intern', salary: '55,000'},
+    { id: 8, name: 'Christopher James', title: 'Intern', salary: '55,000' },
   ]
 
   const renderEmployee = (employee, index) => {
@@ -28,19 +28,19 @@ const employees = [
   return (
     <div className="App">
       <h1>Employee Table</h1>
-    <table striped border hover>
-      <thread>
-        <tr>
-          <th>id</th>
-          <th>Name</th>
-          <th>Title</th>
-          <th>Salary</th>
-        </tr>
-      </thread>
-      <tbody>
-        {employees.map(renderEmployee)}
-      </tbody>
-    </table>
+      <table>
+        <thread>
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Salary</th>
+          </tr>
+        </thread>
+        <tbody>
+          {employees.map(renderEmployee)}
+        </tbody>
+      </table>
     </div>
   );
 }
