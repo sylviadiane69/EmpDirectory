@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import SearchForm from "./components/SearchForm";
 import Table from "./components/Table";
+import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Wrapper>
         <Table />
       </Wrapper>
+      <Footer />
     </div>
   );
 }
